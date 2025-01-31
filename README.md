@@ -4,14 +4,15 @@
 #### Goal:
 Build an end-to-end ELT pipeline that extracts financial transaction data from an API, loads it into a data warehouse (BigQuery/Snowflake), and transforms it into analytics-ready tables using DBT.
 
-## Step 1: Environment Setup
+## ```DONE!``` Step 1: Environment Setup ```DONE!```
 Use GitHub Codespaces for development.
 Install necessary libraries for API requests, cloud storage, and DBT.
 Set up Airflow for orchestration.
 
 
 ## Step 2: Extract Raw Data from API
-Select a financial API (e.g., Plaid, Alpha Vantage, Open Exchange Rates).
+#### **Financial API Plaid Bank**  
+_For next time Alpha Vantage, Open Exchange Rates._  
 Write a script to extract raw transaction data from the API.
 Save the raw JSON/CSV data locally.
 ## Step 3: Store Raw Data in Cloud Storage
@@ -67,7 +68,7 @@ Airflow automates tasks like:
 ✅ Triggering DBT transformations
 
 Updated Step-by-Step Plan (With Storage & Orchestration)
-# Step 1: Set Up Your Environment
+# ```DONE!``` Step 1: Set Up Your Environment ```DONE!```
 ✅ Use GitHub Codespaces for development
 ✅ Install required libraries:
 
