@@ -1,7 +1,8 @@
 # Financial Transaction Data Pipeline
 
 ## Analytics Engineer ELT Pipeline 
-
+#### Goal:
+Build an end-to-end ELT pipeline that extracts financial transaction data from an API, loads it into a data warehouse (BigQuery/Snowflake), and transforms it into analytics-ready tables using DBT.
 
 ## Step 1: Environment Setup
 Use GitHub Codespaces for development.
